@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.App{
+    background-color: rgb(88, 4, 148);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.calc-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: rgb(121, 131, 241);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 35px;
+    width: fit-content;
+}
+
+.calculator:hover{
+    box-shadow: 10px 10px 0 rgb(88, 4, 148);
+    top: -5px;
+    left: -5px;
+}
+
+.money{
+    margin: 15px 0 0 0;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.curr-label{
+    display: block;
+}
+
+.money-holder{
+    margin: 5px 0 0 0;
+    height: 30px;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.convert{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.curr-sel{
+    height: 40px;
+    width: 100px;
+    padding: 4px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.curr-sub{
+    padding: 10px;
+}
+
+.sb-btn{
+    width: 100%;
+    height: 40px;
+    padding: 4px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: rgb(88, 4, 148);
+    color: white;
+}
+
+.sb-btn:hover{
+    border: 2px solid rgb(88, 4, 148);
+    color: rgb(88, 4, 148);
+    background-color: #17181c;
+}
